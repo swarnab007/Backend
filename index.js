@@ -17,6 +17,10 @@ app.get('/login', (req, res) => {
     res.send("<h3>login page</h3>");
 })
 
+app.get('/home', (req, res) => {
+    res.send("home page");
+})
+
 app.get('/youtube', (req, res) => {
     res.send("youtube page");
 })
